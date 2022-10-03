@@ -1,0 +1,6 @@
+app:
+  jwtExpirationMs: 76300000
+  jwtSecret: knowledgeFactory
+
+server:
+  port: 8080
