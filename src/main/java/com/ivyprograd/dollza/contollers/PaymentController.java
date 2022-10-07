@@ -20,7 +20,7 @@ public class PaymentController {
         return paymentService.getPaymentList();
     }
 
-    @PostMapping("/add_payment")
+    @PostMapping("/payment")
     public Payment addToPayment(@RequestBody Payment entry){
         return paymentService.addToPayment(entry);
     }
